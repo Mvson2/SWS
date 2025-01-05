@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css" integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+                <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+            <header>
+                <div id="left">
+                    <img src="SWS.svg" id="logo">
+                   
+                </div>
+                <div id="middle">
+
+                </div>
+                <div id="right">
+                    <button type="button" id="ham-btn" onclick="show()"><img src="hamburger.svg" id="ham" ></button>
+                    <button type="button" id="X-btn" onclick="back()"><img src="X.svg" id="X"></button>
+                <div id="nav" class="animation1">
+                    <a href="index.html"><img id="nav-item"  src="Contact.svg"></a>
+                    <a href="index.html"><img id="nav-item" src="About.svg"></a>
+                </div>
+                </div>
+            </header>
+<main>
+    <div id="banner">
+        <div id="banner-mask"></div>
+        <img id="banner-img" src="Quarry.jpg">
+        <h1 id="banner-text-one" style="font-size:50px;"><strong>Designed, Manufactuered, and Assembled in CANADA </strong></h1>
+        <h1 id="banner-text-one"></h1>
+    </div>
+    <div id="content-one">
+
+<img  style="width:80%; height:100%; margin: 0 auto;"src="SAW%20MASK.png">
+
+    </div>
+              <div id="heading-one"><h1><strong><span style="color:#FF6400;">One unit</span></strong> you can pick up<br>
+                and <strong>move wherever you want.</strong></h1></div>
+                    </div>    
+    <img style="width:100%;" src="SAW%20MASK%202.png">
+        <div id="content-two">
+
+        <div id="divider-left"></div>
+        <div id="divider-right"></div>
+
+</div>
+<div id="content-three">
+    <h1 id="heading-three">With Simplicity ™ you'll get the job
+done with versatility, efficiency, and
+100% confidence.</h1>
+    <button>Get a Quote</button>
+</div>
+
+</main>
+            <script>
+function show() {
+  var x = document.getElementById("X");
+  var y = document.getElementById("ham");
+var z = document.getElementById("ham-btn");
+    var a = document.getElementById("X-btn");
+    var b = document.getElementById("nav");
+  if (x.style.display = "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+      z.style.display = "none";
+       a.style.display = "block";
+       b.style.display = "flex";
+      
+  } else {
+    x.style.display = "none";
+    y.style.display = "block";
+  }
+}
+                function back() {
+  var x = document.getElementById("X");
+  var y = document.getElementById("ham");
+var z = document.getElementById("ham-btn");
+    var a = document.getElementById("X-btn");
+    var b = document.getElementById("nav");
+  if (z.style.display = "none") {   
+    x.style.display = "none";
+    y.style.display = "block";
+      z.style.display = "block";
+       a.style.display = "none";
+      b.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "block";
+  }
+}
+</script>
+    </body>
+
+</html>
